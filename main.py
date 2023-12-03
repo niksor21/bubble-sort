@@ -1,4 +1,10 @@
-arr = [-2, 45, 0, 11, -9]
+arr = []
+print()
+num = int(input('Введите количество чисел в массиве: '))
+while not num == 0:
+    digit = int(input(f'Введите {num} элемент массива: '))
+    arr.append(digit)
+    num -= 1
 
 print("Начальный массив: ")
 print(arr)
